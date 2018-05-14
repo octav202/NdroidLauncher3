@@ -50,4 +50,11 @@
 
     <!-- Used as a fallback since colorSecondary doesn't exist pre-API 25 -->
     <color name="fallback_secondary_color">#FF37474F</color>
+
+    <!-- Ndroid -->
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#00796B</color>
+    <color name="lightPrimary">#B2DFDB</color>
+    <color name="colorAccent">#FF5722</color>
+    <color name="colorAccentTransparent">#66FF5722</color>
 </resources>
