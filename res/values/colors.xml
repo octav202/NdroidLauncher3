@@ -25,8 +25,6 @@
 
     <color name="focused_background">#80c6c5c5</color>
 
-    <color name="workspace_icon_text_color">#FFF</color>
-
     <color name="workspace_edge_effect_color">#FFFFFFFF</color>
     <color name="folder_edge_effect_color">#FF757575</color>
     <color name="page_indicator_dot_color">#FFDDDDDD</color>
@@ -37,8 +35,8 @@
 
     <color name="outline_color">#FFFFFFFF</color>
     <color name="all_apps_divider_color">#1E000000</color>
-    <color name="all_apps_caret_color">#FFFFFFFF</color>
-    <color name="all_apps_caret_shadow_color">#22000000</color>
+    <color name="all_apps_caret_color">@color/colorAccent</color>
+    <color name="all_apps_caret_shadow_color">@color/colorAccent</color>
     <color name="all_apps_container_color">#FFF2F2F2</color>
     <color name="all_apps_navbar_color">#28000000</color>
 
@@ -51,6 +49,10 @@
 
     <!-- Used as a fallback since colorSecondary doesn't exist pre-API 25 -->
     <color name="fallback_secondary_color">#FF37474F</color>
+
+    <!-- Workspace app text color -->
+    <color name="workspace_icon_text_color">#FFF</color>
+    <color name="workspace_icon_background">#33F0F0F0</color>
 
     <!-- Ndroid -->
     <color name="colorPrimary">#009688</color>

@@ -49,6 +49,7 @@ import android.content.res.Configuration;
 import android.database.sqlite.SQLiteDatabase;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
+import android.graphics.Color;
 import android.graphics.PorterDuff;
 import android.graphics.Rect;
 import android.graphics.drawable.Drawable;
@@ -127,6 +128,7 @@ import com.android.launcher3.util.ViewOnDrawExecutor;
 import com.android.launcher3.widget.PendingAddWidgetInfo;
 import com.android.launcher3.widget.WidgetHostViewLoader;
 import com.android.launcher3.widget.WidgetsContainerView;
+import com.android.launcher3.R;
 
 import java.io.FileDescriptor;
 import java.io.PrintWriter;
@@ -1468,6 +1470,9 @@ public class Launcher extends Activity
         favorite.setCompoundDrawablePadding(mDeviceProfile.iconDrawablePaddingPx);
         favorite.setOnClickListener(this);
         favorite.setOnFocusChangeListener(mFocusHandler);
+
+        // Ndroid - Customize Icon
+        favorite.setBackground(getResources().getDrawable(R.drawable.ndroid_icon_background));
         return favorite;
     }
 
