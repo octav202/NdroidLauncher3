@@ -72,7 +72,8 @@ public class Hotseat extends FrameLayout
         mBackgroundColor = ColorUtils.setAlphaComponent(
                 ContextCompat.getColor(context, R.color.all_apps_container_color), 0);
         mBackground = new ColorDrawable(mBackgroundColor);
-        setBackground(mBackground);
+
+        setBackground(ContextCompat.getDrawable(context, R.drawable.ndroid_hotseat_background));
     }
 
     public CellLayout getLayout() {

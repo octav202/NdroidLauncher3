@@ -37,7 +37,7 @@
     <color name="all_apps_divider_color">#1E000000</color>
     <color name="all_apps_caret_color">@color/colorAccent</color>
     <color name="all_apps_caret_shadow_color">@color/colorAccent</color>
-    <color name="all_apps_container_color">#FFF2F2F2</color>
+
     <color name="all_apps_navbar_color">#28000000</color>
 
     <color name="spring_loaded_panel_color">#40FFFFFF</color>
@@ -50,6 +50,9 @@
     <!-- Used as a fallback since colorSecondary doesn't exist pre-API 25 -->
     <color name="fallback_secondary_color">#FF37474F</color>
 
+    <!-- All apps background color -->
+    <color name="all_apps_container_color">#FFF2F2F2</color>
+
     <!-- Workspace app text color -->
     <color name="workspace_icon_text_color">#FFF</color>
     <color name="workspace_icon_background">#33F0F0F0</color>
@@ -60,4 +63,6 @@
     <color name="lightPrimary">#B2DFDB</color>
     <color name="colorAccent">#FF5722</color>
     <color name="colorAccentTransparent">#66FF5722</color>
+    <color name="hotseat_background">#66000000</color>
+
 </resources>
