@@ -1473,6 +1473,9 @@ public class Launcher extends Activity
 
         // Ndroid - Customize Icon
         favorite.setBackground(getResources().getDrawable(R.drawable.ndroid_icon_background));
+        favorite.setTextColor(getResources().getColor(R.color.colorAccent));
+        favorite.setTextSize(15);
+
         return favorite;
     }
 

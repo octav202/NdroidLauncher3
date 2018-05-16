@@ -53,16 +53,18 @@
     <!-- All apps background color -->
     <color name="all_apps_container_color">#FFF2F2F2</color>
 
-    <!-- Workspace app text color -->
-    <color name="workspace_icon_text_color">#FFF</color>
-    <color name="workspace_icon_background">#33F0F0F0</color>
-
     <!-- Ndroid -->
     <color name="colorPrimary">#009688</color>
     <color name="colorPrimaryDark">#00796B</color>
     <color name="lightPrimary">#B2DFDB</color>
     <color name="colorAccent">#FF5722</color>
     <color name="colorAccentTransparent">#66FF5722</color>
-    <color name="hotseat_background">#66000000</color>
+
+    <!-- HotSeat -->
+    <color name="hotseat_background">#4Dc8c8c8</color>
+
+    <!-- Icon -->
+    <color name="workspace_icon_text_color">#FFF</color>
+    <color name="workspace_icon_background">#99000000</color>
 
 </resources>
