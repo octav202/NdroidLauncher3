@@ -22,4 +22,12 @@
         android:width="0dp"
         android:color="@color/workspace_icon_background" />
 
+
+    <gradient
+        android:startColor="@color/workspace_icon_background_center"
+        android:endColor="@color/workspace_icon_background"
+        android:centerX="50%"
+        android:centerY="50%"
+        android:gradientRadius="60%"
+        android:type="radial"/>
 </shape>
