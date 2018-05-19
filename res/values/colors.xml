@@ -52,7 +52,7 @@
 
 
     <!-- All apps background color -->
-    <color name="all_apps_container_color">#80000000</color>
+    <color name="all_apps_container_color">#66000000</color>
     <!-- All apps text color-->
     <color name="quantum_panel_text_color">#FF5722</color>
     <color name="all_apps_icon_text_color">#B6B6B6</color>

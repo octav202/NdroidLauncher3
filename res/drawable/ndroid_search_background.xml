@@ -9,10 +9,10 @@
         android:right="0dp"
         android:bottom="0dp" />
     <corners
-        android:bottomRightRadius="15dp"
-        android:bottomLeftRadius="15dp"
-        android:topLeftRadius="15dp"
-        android:topRightRadius="15dp" />
+        android:bottomRightRadius="30dp"
+        android:bottomLeftRadius="30dp"
+        android:topLeftRadius="30dp"
+        android:topRightRadius="30dp" />
 
     <gradient
         android:endColor="@color/workspace_icon_background"
@@ -22,11 +22,4 @@
         android:width="0dp"
         android:color="@color/workspace_icon_background" />
 
-    <gradient
-        android:startColor="@color/workspace_icon_background_center"
-        android:endColor="@color/workspace_icon_background"
-        android:centerX="50%"
-        android:centerY="50%"
-        android:gradientRadius="60%"
-        android:type="radial"/>
 </shape>

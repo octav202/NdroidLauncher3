@@ -69,7 +69,7 @@
                 android:id="@+id/search_box_input"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@android:color/transparent"
+                android:background="@drawable/ndroid_search_background"
                 android:focusableInTouchMode="true"
                 android:gravity="center"
                 android:imeOptions="actionSearch|flagNoExtractUi"
@@ -77,10 +77,11 @@
                 android:maxLines="1"
                 android:scrollHorizontally="true"
                 android:singleLine="true"
-                android:textColor="#4c4c4c"
+                android:textColor="@color/all_apps_icon_text_color"
                 android:hint="@string/all_apps_search_bar_hint"
-                android:textColorHint="@drawable/all_apps_search_hint"
-                android:textSize="16sp" />
+                android:textColorHint="@color/all_apps_icon_text_color"
+                android:textSize="16sp"
+                android:layout_marginTop="5dp" />
         </FrameLayout>
 
     </com.android.launcher3.allapps.AllAppsRecyclerViewContainerView>
