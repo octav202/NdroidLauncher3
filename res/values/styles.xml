@@ -54,20 +54,30 @@
         <item name="android:gravity">center_horizontal</item>
         <item name="android:singleLine">true</item>
         <item name="android:ellipsize">marquee</item>
-        <item name="android:textColor">@color/workspace_icon_text_color</item>
-        <item name="android:shadowRadius">2.0</item>
-        <item name="android:shadowColor">#B0000000</item>
         <item name="android:fontFamily">sans-serif-condensed</item>
+
+        <!-- Background -->
+        <item name="android:background">@drawable/ndroid_icon_background</item>
+        <!-- Text Shadow -->
+        <item name="android:shadowColor">@color/all_apps_icon_text_shadow_color</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <!-- Text Style -->
+        <item name="android:textColor">@color/all_apps_icon_text_color</item>
+        <item name="android:textStyle">bold</item>
     </style>
 
     <style name="Icon.AllApps">
-        <item name="android:background">@null</item>
-        <item name="android:textColor">@color/quantum_panel_text_color</item>
-        <item name="android:drawablePadding">@dimen/dynamic_grid_icon_drawable_padding</item>
+        <item name="android:background">@drawable/ndroid_icon_background</item>
+        <item name="android:drawablePadding">0dp</item>
         <item name="android:shadowRadius">0</item>
-        <item name="android:paddingLeft">4dp</item>
-        <item name="android:paddingRight">4dp</item>
+        <item name="android:padding">0dp</item>
         <item name="customShadows">false</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:layout_marginLeft">2dp</item>
+        <item name="android:layout_marginRight">2dp</item>
     </style>
 
     <style name="Icon.Folder">

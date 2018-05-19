@@ -52,6 +52,7 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.PorterDuff;
 import android.graphics.Rect;
+import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
 import android.os.AsyncTask;
 import android.os.Build;
@@ -1470,12 +1471,6 @@ public class Launcher extends Activity
         favorite.setCompoundDrawablePadding(mDeviceProfile.iconDrawablePaddingPx);
         favorite.setOnClickListener(this);
         favorite.setOnFocusChangeListener(mFocusHandler);
-
-        // Ndroid - Customize Icon
-        favorite.setBackground(getResources().getDrawable(R.drawable.ndroid_icon_background));
-        favorite.setTextColor(getResources().getColor(R.color.colorAccent));
-        favorite.setTextSize(15);
-
         return favorite;
     }
 
